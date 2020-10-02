@@ -8,6 +8,8 @@ import java.util.List;
 
 public class Models911 {
 
+    //TODO przerobić na zmienną klasową PD od Kuba
+
     public List<Car> getModels911List() {
         List<Car> m911list = new ArrayList<>();
         m911list.add(new Targa4_911());
